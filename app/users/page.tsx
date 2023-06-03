@@ -6,9 +6,7 @@ export const metadata = {
 };
 
 export default async function UsersPage() {
-  const usersData = getAllUsers();
-  const users = await usersData;
-  console.log("Hello");
+  const users = await getAllUsers();
   return (
     <section>
       <h2>
