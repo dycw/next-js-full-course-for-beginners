@@ -1,0 +1,3 @@
+[submodule "next-js-course"]
+	path = next-js-course
+	url = https://github.com/gitdagray/next-js-course
