@@ -1,6 +1,6 @@
-# `template-next-js`
+# Next.js Full Course for Beginners (Dave Gray)
 
-Template for Next.js Apps
+https://www.youtube.com/watch?v=843nec-IvW0
 
 #
 
