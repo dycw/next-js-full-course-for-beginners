@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Navbar from "./components/Navbar";
 
 export const metadata = {
   title: "Home",
@@ -6,12 +6,5 @@ export const metadata = {
 };
 
 export default function Home() {
-  return (
-    <main>
-      <h1>Hello World</h1>
-      <p>
-        <Link href="/users">Users</Link>
-      </p>
-    </main>
-  );
+  return <main></main>;
 }

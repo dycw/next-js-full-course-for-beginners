@@ -1,7 +1,5 @@
+import Navbar from "./components/Navbar";
 import "./globals.css";
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Next.js Full Course for Beginners",
@@ -15,10 +13,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <nav>
-          <h1>My Navbar</h1>
-        </nav>
+      <body className="bg-slate-800">
+        <Navbar />
         {children}
       </body>
     </html>
