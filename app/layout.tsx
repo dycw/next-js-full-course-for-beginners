@@ -6,9 +6,6 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Next.js Full Course for Beginners",
   description: "By Dave Gray",
-  icons: {
-    icon: "/favicon.ico",
-  },
 };
 
 export default function RootLayout({
