@@ -1,10 +1,9 @@
-import MyProfilePic from "./components/MyProfilePic";
 import Navbar from "./components/Navbar";
 import "./globals.css";
 
 export const metadata = {
-  title: "Next.js Full Course for Beginners",
-  description: "By Dave Gray",
+  title: "Next Todos",
+  description: "Created for practice",
 };
 
 export default function RootLayout({
@@ -16,8 +15,9 @@ export default function RootLayout({
     <html lang="en">
       <body className="dark:bg-slate-800">
         <Navbar />
-        <MyProfilePic />
-        {children}
+        <main className="mx-auto max-w-xl p-4 bg-stone-200 min-h-screen">
+          {children}
+        </main>
       </body>
     </html>
   );
