@@ -1,6 +1,11 @@
-type Todo = {
-  userId: number;
-  id: number;
+type Meta = {
+  id: string;
   title: string;
-  completed: boolean;
+  date: string;
+  tags: string[];
+};
+
+type BlogPost = {
+  meta: Meta;
+  content: ReactElement<any, string | JSXElementConstructor<any>>;
 };
