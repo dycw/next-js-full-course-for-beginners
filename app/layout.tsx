@@ -2,8 +2,8 @@ import Navbar from "./components/Navbar";
 import "./globals.css";
 
 export const metadata = {
-  title: "Next Todos",
-  description: "Created for practice",
+  title: "Next.js Full Course for Beginners",
+  description: "By Dave Gray",
 };
 
 export default function RootLayout({
@@ -15,7 +15,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="dark:bg-slate-800">
         <Navbar />
-        <main className="mx-auto max-w-xl p-4 bg-stone-200 min-h-screen">
+        <main className="px-4 md:px-6 prose prose-xl prose-slate dark:prose-invert mx-auto">
           {children}
         </main>
       </body>
